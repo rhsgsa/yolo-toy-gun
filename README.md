@@ -14,3 +14,4 @@ This repository contains models trained to detect toy guns and knives.
 |[`20240628-nano.pt`](weights/20240628-nano.pt)|nano|800|[link](images/20240628-nano-results.png)|The training dataset is the same as the previous dataset, with labels for the knives fixed (the previous dataset had labels for `IMG*` in the wrong folder), and background images removed from the `test` folder and redistributed to `train` and `val`.|
 |[`20240628-small.pt`](weights/20240628-small.pt)|small|800|[link](images/20240628-small-results.png)|The training dataset is the same as the previous dataset. The training run was setup for 800 epochs but terminated early because the best results were at epoch 375.|
 |[`20240628-small.engine`](weights/20240628-small.engine)|small|||TensorRT export of `20240628-small.pt`|
+|[`20240709-small.pt`](weights/20240709-small.pt)|small|800|[link](images/20240709-small-results.png)|Added photos from the NCS Impact Day MBS booth to the training dataset.|
